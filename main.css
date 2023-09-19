@@ -1,9 +1,98 @@
-h1 {
-    color:blue;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-#economy h2{
-    color: greenyellow;
+main > header{
+    background-color:   black;
+    padding: 30px 0;
+    color: whitesmoke;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header li{
+display: inline;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+margin-left: 16px;
+}
+header li a{
+    color: #ccc;
+    text-decoration: none;
+    
+    
+}
+header li a :hover{
+    text-decoration: underline;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+    padding-left: 60px;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img{
+    height: 180px;
+    padding-left: 90px;
+}
+.article{
+    height: 30%;
 }
 .creation-date{
     color: #ccc;
+}
+section{
+    padding: 16px 0;
+}
+section h2,
+.articles article{
+    margin-bottom: 16px;
+    color: whitesmoke;
+}
+section h2{
+    font-size: 40px;
+}
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+.articles article{
+    color: whitesmoke;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#economy{
+    background-color: rgb(19, 129, 129, 01);
+}
+#sports{
+    background-color: rgb(7, 58, 58, 01);
+}
+#health{
+    background-color: rgb(4, 46, 38, 01);
+}
+#climate{
+    background-color: rgb(1, 30, 28, 01)
+    
+}
+blockquote{
+    padding-left: 4px;
+    background-color: black;
+    color: #ccc;
+}
+footer{
+    padding-left: 4px;
+    background-color: black;
+    color: whitesmoke
 }
